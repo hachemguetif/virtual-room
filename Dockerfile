@@ -11,3 +11,5 @@ RUN npm i express ejs socket.io uuid peer
 COPY . /app
 
 CMD ["node","server.js"]
+
+EXPOSE 3090
